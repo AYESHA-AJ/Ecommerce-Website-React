@@ -3,7 +3,7 @@ import React from 'react'
 const subTitle = "Choose Any Products";
 const title = "Buy Everything with Us";
 const btnText = "Get Started Now";
-
+//from a file
 const categoryList = [
 {
 imgUrl: 'src/assets/images/category/01.jpg',
