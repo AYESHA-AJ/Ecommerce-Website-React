@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 const title = "Our Products";
-
+//basic react
 const ProductData = [
 {
 imgUrl: 'src/assets/images/categoryTab/01.jpg',
@@ -84,9 +84,15 @@ const CategoryShowcase = () => {
           <div className='course-shape two'><img src="/src/assets/images/shape-img/icon/01.png" /></div>
           {/* main section */}
           <div className='container'>
-              {/* section header */}
+        {/* section header */}
+        {/* focus on react not css */}
               <div className='section-header'>
-                  <h2 className='title'>{ title}</h2>
+          <h2 className='title'>{title}</h2>
+          <div>
+            <ul className='lab-ul'>
+              <li onClick={()=>{}}> All</li>
+            </ul>
+          </div>
               </div>
           </div>
     </div>
