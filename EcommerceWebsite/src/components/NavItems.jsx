@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import logo from "../assets/images/logo/logo.png";
 // all assets from github repository
 const NavItems = () => {
+  //for responsiveness
   const [menuToggle, setMenuToggle] = useState(false);
   const [socialToggle, setSocialToggle] = useState(false);
+  
   const [headerFixed, setHeaderFixed] = useState(false);
 
   window.addEventListener("scroll", () => {
