@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client'
 import Layout from './Layout'
 import './index.css'
 import { createBrowserRouter, RouterProvider, createRoutesFromElements } from 'react-router-dom'
+// for routes
 import { Route } from 'react-router-dom'
+
 import App from './App'
 import 'swiper/css';
 
